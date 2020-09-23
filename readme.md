@@ -1,3 +1,8 @@
+This step by step for buffer overflow is obtained from TryHackMe platform under Offensive Pentesting (Buffer Overflow Prep).
+
+Credits to Tib3rius.
+
+
 ## Steps for `Buffer Overflow`
 
 1. Set up !Mona on Debugger
@@ -95,7 +100,6 @@ padding = "\x90" * 16
 ```
 
 14. Start the msfconsole listener and run the exploit. 
-
 
 
 
